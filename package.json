@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adriannack/react_webpack_rails.git"
+    "url": "git+https://github.com/DrizlyInc/react_webpack_rails.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,12 @@
     "webpack",
     "react_webpack_rails"
   ],
-  "author": "Rafał Gawlik",
+  "author": "OG Rafał Gawlik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adriannack/react_webpack_rails/issues"
+    "url": "https://github.com/DrizlyInc/react_webpack_rails/issues"
   },
-  "homepage": "https://github.com/adriannack/react_webpack_rails#readme",
+  "homepage": "https://github.com/DrizlyInc/react_webpack_rails#readme",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "react": "^16.0.0",
