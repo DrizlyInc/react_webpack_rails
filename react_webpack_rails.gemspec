@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'React and Rails integration done with webpack'
   spec.description   = ''
-  spec.homepage      = 'https://github.com/netguru/react_webpack_rails'
+  spec.homepage      = 'https://github.com/DrizlyInc/react_webpack_rails'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

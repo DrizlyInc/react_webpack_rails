@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-rails",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "Js part of react_webpack_rails - webpack based React & Rails integration.",
   "main": "js/lib/index.js",
   "files": [
@@ -21,17 +21,18 @@
     "webpack",
     "react_webpack_rails"
   ],
-  "author": "OG Rafał Gawlik",
+  "author": "Rafał Gawlik",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DrizlyInc/react_webpack_rails/issues"
   },
   "homepage": "https://github.com/DrizlyInc/react_webpack_rails#readme",
   "dependencies": {
-    "babel-polyfill": "^6.23.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-hot-loader": "^3.0.0-beta.6"
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.7.2",
+    "react-hot-loader": "^3.1.3",
+    "react": "16.3.0",
+    "react-dom": "16.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",

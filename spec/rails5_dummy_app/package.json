@@ -29,9 +29,9 @@
     "http": "*",
     "httpdispatcher": "^2.0.0",
     "node-sass": "^3.8.0",
-    "react": "^15.1.0",
+    "react": "^15.16.2",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0",
+    "react-dom": "^15.16.2",
     "react-webpack-rails": "file:../..",
     "rwr-view-helpers": "^0.1.1",
     "sass-loader": "^4.0.0",
@@ -48,6 +48,6 @@
   },
   "license": "",
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 10.15.0"
   }
 }
