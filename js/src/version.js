@@ -1,2 +1,2 @@
 // eslint-disable-next-line quotes
-export default "0.7.1";
+export default "0.8.0";
