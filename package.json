@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-rails",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "Js part of react_webpack_rails - webpack based React & Rails integration.",
   "main": "js/lib/index.js",
   "files": [
@@ -21,7 +21,7 @@
     "webpack",
     "react_webpack_rails"
   ],
-  "author": "OG Rafał Gawlik",
+  "author": "Rafał Gawlik",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DrizlyInc/react_webpack_rails/issues"
