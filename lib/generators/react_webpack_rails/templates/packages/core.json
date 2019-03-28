@@ -9,18 +9,15 @@
     "eslint-plugin-react": "^6.7.0",
     "webpack-notifier": "^1.5.0"
   },
-
-  "peerDependencies": {
-    "react-webpack-rails": "file:./../react_webpack_rails",
-    "react": "16.4.2",
-    "react-dom": "16.0.1"
-  },
   "dependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-1": "^6.22.0",
+    "react-webpack-rails": "file:./../react_webpack_rails",
+    "react": "16.3.0",
+    "react-dom": "16.0.1",
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "node-sass": "^4.5.1",
