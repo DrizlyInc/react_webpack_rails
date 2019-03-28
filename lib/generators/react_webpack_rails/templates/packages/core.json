@@ -13,7 +13,7 @@
   "peerDependencies": {
     "react-webpack-rails": "file:./../react_webpack_rails",
     "react": "16.4.2",
-    "react-dom": "16.4.2"
+    "react-dom": "16.0.1"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
