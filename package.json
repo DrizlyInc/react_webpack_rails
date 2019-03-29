@@ -7,8 +7,8 @@
     "js/lib"
   ],
   "scripts": {
-    "build": "babel --presets es2015 -d js/lib/ js/src/",
-    "prepare": "npm run build",
+    "compile": "babel --presets es2015 -d js/lib/ js/src/",
+    "prepublishOnly": "npm run compile",
     "test": "mocha js/test --ui bdd --recursive --require babel-core/register"
   },
   "repository": {
