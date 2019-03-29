@@ -7,8 +7,8 @@
     "js/lib"
   ],
   "scripts": {
-    "compile": "babel --presets es2015 -d js/lib/ js/src/",
-    "prepublish": "npm run compile",
+    "build": "babel --presets es2015 -d js/lib/ js/src/",
+    "prepare": "npm run build",
     "test": "mocha js/test --ui bdd --recursive --require babel-core/register"
   },
   "repository": {
@@ -30,9 +30,9 @@
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "prop-types": "^15.7.2",
-    "react-hot-loader": "^3.1.3",
     "react": "16.3.0",
-    "react-dom": "16.0.1"
+    "react-dom": "16.0.1",
+    "react-hot-loader": "^4.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
