@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/DrizlyInc/react_webpack_rails#readme",
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "prop-types": "^15.7.2",
+    "babel-polyfill": "^6.23.0",
     "react": "16.3.0",
     "react-dom": "16.0.1",
-    "react-hot-loader": "^4.0.1"
+    "react-hot-loader": "^3.0.0"
   },
   "devDependencies": {
+    "prop-types": "15.7.2",
     "babel-cli": "^6.24.0",
     "babel-core": "^6.24.0",
     "babel-preset-es2015": "^6.24.0",
