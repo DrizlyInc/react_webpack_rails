@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ReactDOMServer from 'react-dom/server';
-import { AppContainer } from 'react-hot-loader';
+import React from "react";
+import ReactDOM from "react-dom";
+import ReactDOMServer from "react-dom/server";
+import { AppContainer } from "react-hot-loader";
 
 class ReactIntegration {
   constructor() {
@@ -15,7 +15,7 @@ class ReactIntegration {
   }
 
   registerComponent(...args) {
-    if (typeof args[0] === 'object') {
+    if (typeof args[0] === "object") {
       const component = args[0];
       this.components = Object.assign({}, this.components, component);
     }
@@ -65,7 +65,7 @@ class ReactIntegration {
 
       nodeRun: function _prerender(payload) {
         return this.renderComponentToString(payload.name, payload.props);
-      }.bind(this),
+      }.bind(this)
     };
   }
 
@@ -73,10 +73,10 @@ class ReactIntegration {
     const nativeNode = node.selector ? node[0] : node; // normalize jquery objects to native nodes
     const dataset = nativeNode.dataset;
     if (dataset.rwrElement) return;
-    dataset.rwrElement = 'true';
-    dataset.integrationName = 'react-component';
+    dataset.rwrElement = "true";
+    dataset.integrationName = "react-component";
     dataset.payload = JSON.stringify({ name, props });
-  };
+  }
 }
 
-export default new ReactIntegration;
+export default new ReactIntegration();
