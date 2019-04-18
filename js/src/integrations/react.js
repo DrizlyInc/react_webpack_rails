@@ -41,7 +41,7 @@ class ReactIntegration {
   renderComponent(name, props, node) {
     const component = this.createComponent(name, props);
     this._attachIntegrationData(node, name, props);
-    ReactDOM.render(component, node);
+    ReactDOM.hydrate(component, node);
   }
 
   unmountComponent(node) {
