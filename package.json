@@ -29,9 +29,9 @@
   "homepage": "https://github.com/DrizlyInc/react_webpack_rails#readme",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "react": "16.3.0",
-    "react-dom": "16.0.1",
-    "react-hot-loader": "^3.0.0"
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-hot-loader": "^4.8.4"
   },
   "devDependencies": {
     "prop-types": "15.7.2",

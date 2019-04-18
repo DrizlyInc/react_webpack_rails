@@ -71,14 +71,14 @@ var ReactIntegration = function () {
     value: function createComponent(name, props) {
       var constructor = this.getComponent(name);
       var element = _react2.default.createElement(constructor, props);
-      return _react2.default.createElement(_reactHotLoader.AppContainer, null, element);
+      return _react2.default.createElement(constructor, null, element);
     }
   }, {
     key: "renderComponent",
     value: function renderComponent(name, props, node) {
       var component = this.createComponent(name, props);
       this._attachIntegrationData(node, name, props);
-      _reactDom2.default.render(component, node);
+      _reactDom2.default.hydrate(component, node);
     }
   }, {
     key: "unmountComponent",
