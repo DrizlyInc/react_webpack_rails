@@ -71,7 +71,7 @@ var ReactIntegration = function () {
     value: function createComponent(name, props) {
       var constructor = this.getComponent(name);
       var element = _react2.default.createElement(constructor, props);
-      return _react2.default.createElement(constructor, null, element);
+      return _react2.default.createElement(_reactHotLoader.AppContainer, null, element);
     }
   }, {
     key: "renderComponent",
