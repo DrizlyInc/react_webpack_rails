@@ -1,9 +1,9 @@
-import reactIntegration from './integrations/react';
+import reactIntegration from "./integrations/react";
 
 class IntegrationsManager {
   constructor() {
     this.integrations = {
-      'react-component': reactIntegration.integrationWrapper,
+      "react-component": reactIntegration.integrationWrapper
     };
   }
 
@@ -23,13 +23,13 @@ class IntegrationsManager {
   }
 
   runNodeIntegration(data) {
-    let result = '';
+    let result = "";
     const { nodeRun } = this.get(data.integrationName);
-    if (typeof(nodeRun) === 'function') {
+    if (typeof nodeRun === "function") {
       result = nodeRun(data.payload);
     }
     return result;
   }
 }
 
-export default new IntegrationsManager;
+export default new IntegrationsManager();
