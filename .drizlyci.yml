@@ -1,0 +1,16 @@
+---
+version: 0.0.2
+team:
+  jira:
+    backlog_url:
+    kanban_url:
+  slack_channels:
+    humans:
+      discussion:
+      at_group:
+    robots:
+      ci_pass:
+      ci_fail:
+      ci_fail_master:
+      deploy:
+        # dev-releases included by default
