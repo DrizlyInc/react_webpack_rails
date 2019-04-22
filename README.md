@@ -1,5 +1,6 @@
 # ReactWebpackRails
-[![Travis CI](https://travis-ci.org/netguru/react_webpack_rails.svg?branch=master)](https://travis-ci.org/netguru/react_webpack_rails)
+
+This is a private Drizly fork, because we need this gem despite the fact that the original project is...
 
 ## !! DEPRECATED !!
 Consider using [Webpacker](https://github.com/rails/webpacker) instead.
